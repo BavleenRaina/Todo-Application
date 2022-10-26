@@ -11,6 +11,7 @@ class NoteViewModel(application: Application) : AndroidViewModel(application) {
 
     val allNotes: LiveData<List<Note>>
     private val repository: NoteRepository
+    //uhbu
 
     init {
         val dao = NoteDataBase.getDatabase(application).getNoteDao()
